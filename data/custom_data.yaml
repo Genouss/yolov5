@@ -1,0 +1,9 @@
+train: ../train_data/images/train/  # train images (relative to 'path') 252 images(around 50 images per class)
+val: ../train_data/images/val/  # val images (relative to 'path') 25 images (aka 5 per class person,chicken,dog,cat,desert-fox)
+test:  # test images (optional)
+
+# Classes
+nc: 5  # number of classes
+
+# class names
+names: ['Person', 'Chicken', 'Dog', 'Cat', 'Desert Fox']  
